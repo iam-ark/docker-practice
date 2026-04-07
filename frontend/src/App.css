@@ -1,0 +1,59 @@
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #646cff;
+}
+
+.subtitle {
+  color: #888;
+  margin-top: -1rem;
+}
+
+.card {
+  background: #1a1a1a;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-top: 2rem;
+  border: 1px solid #333;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.message {
+  font-size: 1.2rem;
+  color: #4caf50;
+  font-weight: 600;
+}
+
+.error {
+  color: #f44336;
+}
+
+button {
+  background-color: #646cff;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.4rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.2s;
+}
+
+button:hover:not(:disabled) {
+  background-color: #535bf2;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
